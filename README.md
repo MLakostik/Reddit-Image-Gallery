@@ -1,6 +1,6 @@
-#Reddit Image Gallery
+# Reddit Image Gallery
 
-###Description
+### Description
 The Reddit image gallery uses the Reddit JSON API to pull all images and gifs from a specified subreddit. A request is made and the JSON file is pulled which allows us to get each of the image URLs. Each image link is then placed inside a `<img>` tag and is then appended to the page.
 
 ### Features
