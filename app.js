@@ -24,7 +24,7 @@ function addImages() {
   </div>
 </div>`;
 
-  $.getJSON(`http://www.reddit.com/r/${subReddit}/.json?limit=100`, function(data) {
+  $.getJSON(`https://www.reddit.com/r/${subReddit}/.json?limit=100`, function(data) {
     var content = "";
 
     $.each(data.data.children, function(i, item) {
