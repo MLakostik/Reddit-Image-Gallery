@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reddit Photo Gallary</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modify.scss">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <img class="logo" src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" alt="">
+    <h1 class="title">Reddit Image Gallery</h1>
+  </div>
+
+  <div class="row">
+    <div class="input-field col s12 l0">
+      <input class="lighten-1" id="subreddit" type="text">
+      <label for="subreddit">Sub Reddit</label>
+      <button class="btn waves-effect" type="submit" onclick="setSubReddit()" name="Submit" value="Submit">Display
+      </button>
+    </div>
+  </div>
+
+  <div class="imgContainer" id="app">
+  </div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
