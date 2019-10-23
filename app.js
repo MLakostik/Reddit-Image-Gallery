@@ -23,6 +23,7 @@ function addImages() {
     </div>
   </div>
 </div>`;
+
   $.getJSON(`http://www.reddit.com/r/${subReddit}/.json?limit=100`, function(data) {
     var content = "";
 
