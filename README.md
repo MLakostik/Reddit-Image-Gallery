@@ -8,3 +8,5 @@ The Reddit image gallery uses the Reddit JSON API to pull all images and gifs fr
 - Hides all images that are broken
 - A default subreddit can be set
 - Uses the Materialize framework
+
+Try the live [Version](https://mlakostik.github.io/Reddit-Image-Gallery/ "Working Version")
