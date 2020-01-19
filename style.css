@@ -36,11 +36,19 @@ text-align: center;
   color: white;
 }
 
-.memeImg{
+.imgItem{
 display: inline-block;
-height: 20em;
+height: 250px;
 width: auto;
 margin: 2em;
+box-shadow: 9px 3px 15px 0px rgba(0,0,0,0.64);
+}
+
+.imgItem:hover{
+cursor: pointer;
+filter: brightness(50%);
+display: inline-block;
+box-shadow: 9px 3px 15px 0px rgba(0,0,0,0.64);
 }
 
 .image{
