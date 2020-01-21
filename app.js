@@ -1,13 +1,17 @@
 var subReddit = "";
-setSubReddit();
+setSubReddit("");
 
-function setSubReddit() {
+function setSubReddit(userString) {
   subReddit = document.getElementById('subreddit').value;
-  console.log(subReddit);
 
   if (subReddit == "") {
     subReddit = "earthporn";
   }
+
+  if(userString !=""){
+    subReddit = userString;
+  }
+
   addImages();
 }
 
